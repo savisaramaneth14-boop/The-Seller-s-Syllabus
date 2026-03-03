@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   background-color: #0F172A;
+   color: #94A3B8;
+   font-family: 'Inter', sans-seriff;
+   font-size: 20px;
+   line-height: 1.7;
+   padding: 10px;
+}
+
+.logo{
+	max-width: 1200px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: #38BDF8;
+}
+
+a:hover{
+	color: #7DD3FC;
+	text-shadow: 0 0 8px rgba(56,189,248,0.4);
+}
+
+a:visited{
+	color: #A855F7;
+}
+
+a:active{
+	color: #BAE6FD;
+}
+
+a:focus{
+	color: #38BDF8;
+}
+
+span{
+	font-weight: bold;
+	color: #F4F5F6;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.intro-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    color: #F8FAFC;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.15rem;
+    color: #94A3B8;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+h3{
+	font-size: 2rem;
+	font-family: Montserrat, monospace;
+	color: lightsteelblue;
+}
+
+.site-footer {
+    margin-top: 80px;
+    padding: 40px 0 20px 0;
+    border-top: 1px solid #334155;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    color: lightsteelblue ;
+}
+
+.footer-links a {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #475569;/
+}
